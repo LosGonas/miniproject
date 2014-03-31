@@ -4,7 +4,7 @@ Feature: Sanity
   I want to reassure everything is working
 
   Scenario:
-    Given I have installed Cucumer
-    When I run bundle exec cucumber
-    Then I should see cucumber features running
+    Given I have installed the Cucumber gem
+    When I run which cucumber
+    Then I should see the commands path
 
