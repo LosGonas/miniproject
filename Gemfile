@@ -21,5 +21,14 @@ end
 
 group :test, :development do
   gem 'sqlite3'
+  gem 'rspec-rails', '~> 3.0.0.beta'
 end
+
+group :test do
+  gem 'capybara'
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner'
+  gem 'launchy'
+end
+
 
