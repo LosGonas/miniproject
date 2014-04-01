@@ -9,11 +9,12 @@ Miniproject's repo for Ohtu course at CSDep of HY.
 
 * Juho Hautala <[juho.hautala@helsinki.fi][juhomail]>
 * Elias Nygren
-* Nikke Kostiainen
+* Nikke Kostiainen <[nikke.kostiainen@helsinki.fi][nikgmail]]>
 * Joonas Laakkonen <[joonas.laakkonen@helsinki.fi][jonemail]]>
 
 [juhomail]: mailto:juho.hautal@helsinki.fi
 [jonemail]: mailto:joonas.laakkonen@helsinki.fi
+[nikgmail]: mailto:nikke.kostiainen@helsinki.fi
 
 ## Backlogs
 
