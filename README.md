@@ -5,6 +5,9 @@ Miniproject's repo for Ohtu course at CSDep of HY.
 ## Heroku
 * bibber.herokuapp.com
 
+## Travis
+* [Build Status](https://travis-ci.org/LosGonas/miniproject.png)](https://travis-ci.org/LosGonas/miniproject)
+
 ## Team
 
 * Juho Hautala <[juho.hautala@helsinki.fi][juhomail]>
