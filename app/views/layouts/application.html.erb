@@ -11,7 +11,7 @@
     <header>
       <h1><%= link_to "Bibber", root_path %></h1>
       <% if not current_user.nil? %>
-          <p><%= current_user.username %> signed in</p>
+          <p><%= current_user.email %> signed in</p>
       <% end %>
     </header>
 

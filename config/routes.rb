@@ -2,10 +2,10 @@ Miniproject::Application.routes.draw do
   resources :users
 
   # /profile
-  root 'sessions#new'
+  root 'users#index'
   resources :sessions, only: [:new, :create]
   get 'login', to: 'sessions#new'
-  delete 'logout', to: 'sessions#destroy'
+  get 'logout', to: 'sessions#destroy'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

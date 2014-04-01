@@ -4,9 +4,10 @@ class SessionsController < ApplicationController
   end
 
   def create
-    user = User.find_by username: params[:username]
-    if user.nil?
-      redirect_to :back, notice: "User #{params[:username]} does not exist!"
+    user = User.find_by email: params[:email]
+
+    if user.nil? or not user.authenticate params[:password]
+      redirect_to :back, notice: "username and password do not match"
     else
       session[:user_id] = user.id
       redirect_to users_path, notice: "Welcome back!"
@@ -14,9 +15,7 @@ class SessionsController < ApplicationController
   end
 
   def destroy
-    # nollataan sessio
     session[:user_id] = nil
-    # uudelleenohjataan sovellus pääsivulle
-    redirect_to :root
+    redirect_to users_path, notice: "Logged out!"
   end
 end
