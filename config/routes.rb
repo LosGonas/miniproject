@@ -1,6 +1,8 @@
 Miniproject::Application.routes.draw do
+  resources :users
+
   # /profile
-  root 'users#show'
+  root 'users#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
