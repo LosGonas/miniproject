@@ -2,7 +2,6 @@ ruby '2.0.0'
 
 source 'https://rubygems.org'
 
-gem 'bcrypt-ruby', '~> 3.1.2'
 gem 'rails', '4.0.2'
 gem 'pg'
 gem 'sass-rails', '~> 4.0.0'
@@ -10,6 +9,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 1.2'
+gem 'bcrypt-ruby', '~> 3.1.2'
+gem 'mongo_mapper', :git => "git://github.com/mongomapper/mongomapper.git", :tag => "v0.13.0.beta2"
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
